@@ -1,0 +1,25 @@
+.title{
+    color: red;
+    font-size: 45px;
+    font-weight: 700;
+
+}
+/* 0-480PX ER PHONE GULOTE GREEN DEKHANOR JNNO */
+
+@media only screen and (max-width:480PX){
+    .title{
+        color: green;
+
+    }
+
+}
+
+@media only screen and (min-width:481px) and (max-width:768px){
+    .title{
+        color: goldenrod;
+        font-size: 80px;
+        /* oi range er mobile a konokisu dekhabe nh jodi display : none dei 
+        and display: block dile dekhabe*/
+        display: none;
+    }
+}

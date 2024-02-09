@@ -1,0 +1,16 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.banner-container{
+     height: 100vh;
+     background-image: url("https://images.unsplash.com/photo-1545184180-25d471fe75eb?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8bWFuJTIwd29ya2luZ3xlbnwwfHwwfHx8MA%3D%3D"),
+     linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5));
+    background-blend-mode: overlay;
+     background-repeat: no-repeat;
+     background-position: center ;
+     background-size: cover;
+     margin: 0;
+
+    }
