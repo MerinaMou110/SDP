@@ -1,0 +1,176 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #0D7877;
+}
+.logo{
+    width: 100px;
+
+}
+.menus-container{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    font-size: 22px;
+    color: white;
+
+}
+
+.banner-img{
+    width:100%;
+}
+
+.banner-container{
+    /* background-image: url("https://assets-global.website-files.com/63de61fd6af00b31333c0d3a/641d6189be2e3b4e07c9dfa6_Group%2037.webp"); */
+    display: flex;
+    width: 80%;
+    margin: auto;
+    height: 100vh;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.title{
+    font-size: 76px;
+    font-weight: bold;
+    color: #00CA9A;
+    text-align: center;
+}
+.description{
+    font-size: 22px;
+}
+
+button{
+    padding:15px 25px;
+    border: none;
+    color: white; 
+    font-size: 18px;
+
+}
+
+.app-btn{
+    background-color: #00CA9A;
+}
+.doc-btn{
+    background-color: #0D7877;
+}
+
+.services-card{
+    width: 300px;
+    height: 350px;
+    box-shadow: 8px 8px 16px gray;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+
+
+}
+.service-img{
+    width: 150px;
+   
+}
+.cards{
+    display: flex;
+    /* flex-wrap korle device joto coto hok dekha jbe shb */
+    flex-wrap: wrap;
+    /* card gulo majha newar jonno */
+    justify-content: center;
+    gap: 20px;
+
+}
+.contact-container{
+    text-align: center;
+}
+.input-box{
+    padding: 15px 30px;
+    margin: 10px;
+
+}
+
+.text-area{
+    /* upore niche jayga nibe */
+    padding: 35px 50px
+}
+
+.submit-btn{
+    padding: 10px 20px;
+    width:15%;
+    margin-top:20px;
+    background-color: #00CA9A;
+    color: white;
+    font-size: 22px;
+    border: none;
+
+
+}
+
+.footer-area{
+    display: flex;
+    background-color: #0D7877;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top:20px;
+    align-items: center;
+    /* width: 80%; */
+    /* gap: 40px; */
+    padding: 40px 50px;
+
+}
+
+.text1{
+    color:white;
+    text-align: center;
+}
+.text{
+    list-style: none;
+    /* text-align: center; */
+    color: white;
+    /* gap: 22px; */
+}
+
+.text li {
+    margin-bottom: 10px; 
+}
+
+@media only screen and (max-width: 768px) {
+    .banner-container {
+        display: flex;
+        width: 100%;
+        margin: auto;
+        height: 100vh;
+        align-items: center;
+        text-align: center;
+    }
+  }
+
+  @media only screen and (max-width:768px){
+    .title{
+        font-size: 50px;
+        font-weight: bold;
+        color: #00a2ca;
+        text-align: center;
+    }
+  }
+  
+  @media only screen and (max-width:768px){
+   
+    .submit-btn{
+        padding: 10px 20px;
+        width:20%;
+        margin-top:20px;
+        background-color: #00CA9A;
+        color: white;
+        font-size: 20px;
+        border: none;
+    
+    
+    }
+  }
+  
+  
